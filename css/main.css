@@ -250,3 +250,87 @@ button:focus{
       transform: rotateY(360deg) 
     }
   }
+
+/* klasi za sekci */
+
+
+ @media (max-width: 999px) {
+.section{
+padding-top: 40px;
+}
+}
+
+@media (min-width: 1000px) and (max-width: 1439px) {
+.section{
+padding-top: 80px;
+}
+}
+
+@media (min-width: 1440px) {
+.section{
+padding-top: 100px;
+}
+}
+
+
+@media (max-width: 999px) {
+.section-colored {
+padding-bottom: 40px;
+}
+}
+
+@media (min-width: 1000px) and (max-width: 1439px) {
+.section-colored {
+padding-bottom: 80px;
+}
+}
+
+@media (min-width: 1440px) {
+.section-colored {
+padding-bottom: 100px;
+}
+}
+
+
+@media (max-width: 999px) {
+:not(.section-colored)+#bottom,
+:not(.section-colored)+.section-colored {
+margin-top: 40px;
+}
+}
+
+@media (min-width: 1000px) and (max-width: 1439px) {
+:not(.section-colored)+#bottom,
+:not(.section-colored)+.section-colored {
+margin-top: 80px;
+}
+}
+
+@media (min-width: 1440px) {
+:not(.section-colored)+#bottom,
+:not(.section-colored)+.section-colored {
+margin-top: 100px;
+}
+}
+
+@media (max-width: 999px) {
+.wrap {
+padding-left: 15px;
+padding-right: 15px;
+}
+}
+
+@media (min-width: 1000px) {
+.wrap {
+padding-left: 30px;
+padding-right: 30px;
+}
+}
+
+@media (min-width: 1250px) {
+.wrap {
+max-width: 1200px;
+margin-left: auto;
+margin-right: auto;
+}
+}
