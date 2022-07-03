@@ -5,6 +5,35 @@ body{
     background-color: #edf0f2;
 }
 
+.navbar-nav a{
+    margin-right: 10px;
+}
+footer{
+    position: relative;
+    background-image: url('../Images/img_footer.jpg');
+    background-repeat: no-repeat;
+    background-position: 30% 30%;
+    width:100%;
+    
+    
+}
+
+.logofooter{
+    height: 70px;
+    margin-top: 60px;
+   
+}
+.test{
+    justify-content: space-between;
+}
+
+.text-white a:hover{
+   color:rgb(69, 66, 66) !important;
+}
+
+.bg-white{
+    background-color:#edf0f2 ;
+}
 
 /* klasi za sekci */
 
