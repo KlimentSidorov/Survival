@@ -35,86 +35,172 @@ footer{
     background-color:#edf0f2 ;
 }
 
-/* klasi za sekci */
-
-
- @media (max-width: 999px) {
-.section{
-padding-top: 40px;
-}
-}
-
-@media (min-width: 1000px) and (max-width: 1439px) {
-.section{
-padding-top: 80px;
-}
+.cart {
+    position: relative;
+    background-color: #fff;
+    color: #212529;
+    font-size: 30px;
+    padding: 5px;
+    border-radius: 4px;
 }
 
-@media (min-width: 1440px) {
-.section{
-padding-top: 100px;
+.cartAmount {
+    position: absolute;
+    top: -15px;
+    right: -10px;
+    font-size: 16px;
+    background-color: red;
+    color: white;
+    padding: 3px;
+    border-radius: 3px;
 }
+
+/**
+* ! Shop items styles are here
+**/
+
+.shop {
+    display: grid;
+    grid-template-columns: repeat(4, 223px);
+    gap: 30px;
+    justify-content: center;
+}
+
+.btn-cart {
+    background-color: green;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 20px;
+}
+
+.btn-dis {
+    background-color: red;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 20px;
 }
 
 
-@media (max-width: 999px) {
-.section-colored {
-padding-bottom: 40px;
-}
-}
-
-@media (min-width: 1000px) and (max-width: 1439px) {
-.section-colored {
-padding-bottom: 80px;
-}
+@media (max-width: 1000px) {
+    .shop {
+        grid-template-columns: repeat(2, 223px);
+    }
 }
 
-@media (min-width: 1440px) {
-.section-colored {
-padding-bottom: 100px;
-}
-}
-
-
-@media (max-width: 999px) {
-:not(.section-colored)+#bottom,
-:not(.section-colored)+.section-colored {
-margin-top: 40px;
-}
+@media (max-width: 500px) {
+    .shop {
+        grid-template-columns: repeat(1, 223px);
+    }
 }
 
-@media (min-width: 1000px) and (max-width: 1439px) {
-:not(.section-colored)+#bottom,
-:not(.section-colored)+.section-colored {
-margin-top: 80px;
-}
+.item {
+    border: 2px solid #212529;
+    border-radius: 4px;
 }
 
-@media (min-width: 1440px) {
-:not(.section-colored)+#bottom,
-:not(.section-colored)+.section-colored {
-margin-top: 100px;
-}
-}
-
-@media (max-width: 999px) {
-.wrap {
-padding-left: 15px;
-padding-right: 15px;
-}
+.details {
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    gap: 10px;
 }
 
-@media (min-width: 1000px) {
-.wrap {
-padding-left: 30px;
-padding-right: 30px;
-}
+.price-quantity {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
 }
 
-@media (min-width: 1250px) {
-.wrap {
-max-width: 1200px;
-margin-left: auto;
-margin-right: auto;
+.buttons {
+    display: flex;
+    flex-direction: row;
+    gap: 8px;
+    font-size: 16px;
 }
+
+.bi-dash-lg {
+    color: red;
+}
+
+.bi-plus-lg {
+    color: green;
+}
+
+/**
+* ! style rules for label and some buttons
+**/
+
+.text-center {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.HomeBtn,
+.checkout,
+.removeAll {
+    background-color: #212529;
+    color: white;
+    border: none;
+    padding: 6px;
+    border-radius: 3px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+.checkout {
+    background-color: green;
+}
+
+.removeAll {
+    background-color: red;
+}
+
+.bi-x-lg {
+    color: red;
+    font-weight: bold;
+}
+
+/**
+* ! style rules for shopping-cart
+**/
+
+.shopping-cart {
+    display: grid;
+    grid-template-columns: repeat(1, 320px);
+    justify-content: center;
+    gap: 15px;
+}
+
+/**
+* ! style rules for cart-item
+**/
+
+.cart-item {
+    border: 2px solid #212529;
+    border-radius: 5px;
+    display: flex;
+}
+
+.title-price-x {
+    width: 195px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /* border: 2px solid red; */
+}
+
+.title-price {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.cart-item-price {
+    background-color: #212529;
+    color: white;
+    border-radius: 4px;
+    padding: 3px 6px;
 }
