@@ -7,6 +7,7 @@
   <title>Home</title>
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <link rel="stylesheet" type="text/css" media="screen" href="./css/main.css" />
+  <link rel="stylesheet" href="./css/user.css">
 
   <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet" />
   <!-- Google Fonts -->
@@ -17,6 +18,7 @@
 </head>
 
 <body>
+  <!-- Nav Bar -->
   <nav class="navbar navbar-expand-lg navbar-light bg-light">
     <div class="container-fluid">
       <a href="#" class="navbar-brand">
@@ -27,13 +29,13 @@
       </button>
       <div class="collapse navbar-collapse" id="navbarCollapse">
         <div class="navbar-nav">
-          <a href="#" class="nav-item nav-link">Home</a>
+          <a href="home.html" class="nav-item nav-link">Home</a>
           <a href="#" class="nav-item nav-link">About Us</a>
           <a href="#" class="nav-item nav-link">Courses</a>
           <a href="#" class="nav-item nav-link">Contact</a>
         </div>
         <div class="navbar-nav ms-auto">
-          <a href="user.html" class="nav-item nav-link">
+          <a href="#" class="nav-item nav-link" >
             <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor"
               class="bi bi-person-circle" viewBox="0 0 16 16">
               <path d="M11 6a3 3 0 1 1-6 0 3 3 0 0 1 6 0z" />
@@ -53,13 +55,91 @@
     </div>
   </nav>
 
+  <!-- Form -->
+  <div class="pagecontainer" >
+    <div class="container-1 bcolor2">
+      <div class="signinpage none">
+        <h1 class="heading">Welcome Back!</h1>
+        <pre>
+To keep connected with us please 
+           login with your personal info  </pre>
+        <input type="submit" class="signup" value="Sign In" id="sign" />
+      </div>
+      <div class="signinform">
+        <h1 class="form-heading">Sign in</h1>
+        <p>with social plattforms</p>
+        <div class="social-plattforms">
+          <a href="http://facebook.com" target="_blank">
+            <img src="img/l1.jpg" alt="facebook-logo" class="logo-image"> </a>
+
+
+          <a href="http://instagram.com" target="_blank"><img src="img/l3.png" alt="insta-logo"
+              class="logo-image" /></a>
+        </div>
+        <p>or use your account</p>
+        <form action="abc.php">
+          <label for="email">
+            <input type="email" name="emailid" id="email" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$"
+              title="E-mail must contain @" placeholder="E-mail" required />
+          </label>
+          <label for="password">
+            <input type="password" name="pasw" id="password" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}" title="Must contain
+              at least one number and one uppercase and lowercase letter, and at
+              least 8 or more characters" minlength="8" maxlength="12" placeholder="Password" required />
+          </label>
+          <p>
+          <label for="check">
+            <input type="checkbox" name="box" id="check" value="Remember me" />Remember Me
+          </label>
+        </p>
+       
+          <input type="submit" class="login" value="Login" id="login" />
+        </form>
+      </div>
+    </div>
+    <div class="container-2 bcolor1">
+      <div class="signuppage">
+        <h1 class="heading">Hello,friends!</h1>
+        <pre>
+Enter your personal details and start
+            journey with us
+          </pre>
+        <input type="submit" class="signup" value="Sign Up" id="signup" />
+      </div>
+      <div class="signupform none">
+        <h1 class="form-heading">Create Account</h1>
+        <form action="abc.php">
+          <label for="mname">
+            <input type="text" name="name" id="mname" placeholder="Username" maxlength="40" required />
+          </label>
+          <label for="email">
+            <input type="email" name="mail" id="mail" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$"
+              title="E-mail must contain @" placeholder="E-mail" required />
+          </label>
+          <label for="password">
+            <input type="password" name="psww" id="secret" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}" title="Must contain
+              at least one number and one uppercase and lowercase letter, and at
+              least 8 or more characters" placeholder="Password
+              " required />
+            <p>
+          </label> Choose your gender: Male<input type="radio" name="mygender" id="male" /> Female <input type="radio"
+            name="mygender" id="female" />
+          </p>
+         
+         <p>
+          <label for="terms">
+            <input type="checkbox" name="box" id="terms" value="terms&condition" />Accept terms &
+              conditions
+          </label>
+       </p>
+         
+          <input type="submit" class="signup" value="Sign Up" id="newac" />
+        </form>
+      </div>
+    </div>
+  </div>
   
-
-
-
-
-  
-
+<!-- Footer -->
   <footer class="bg-light text-center text-white">
     <div class="container">
       <!-- Grid container -->
@@ -143,7 +223,14 @@
       <!-- Grid container -->
     </div>
   </footer>
+  
 
+
+
+
+  
+
+  
   <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/4.2.0/mdb.min.js"></script>
 
   <script src="./js/main.js"></script>
