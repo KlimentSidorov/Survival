@@ -1,92 +1,5 @@
 <!DOCTYPE html>
 <html>
-<<<<<<< HEAD
-  <head>
-    <meta charset="utf-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <title>Home</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <link
-      rel="stylesheet"
-      type="text/css"
-      media="screen"
-      href="./css/main.css"
-    />
-
-    <link
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
-      rel="stylesheet"
-    />
-    <!-- Google Fonts -->
-    <link
-      href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap"
-      rel="stylesheet"
-    />
-    <!-- MDB -->
-    <link
-      href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/4.2.0/mdb.min.css"
-      rel="stylesheet"
-    />
-  </head>
-
-  <body>
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-      <div class="container-fluid">
-        <a href="#" class="navbar-brand">
-          <img src="./Images/logo.png" height="55" alt="CoolBrand" />
-        </a>
-        <button
-          class="navbar-toggler"
-          type="button"
-          data-mdb-toggle="collapse"
-          data-mdb-target="#navbarSupportedContent"
-          aria-controls="navbarSupportedContent"
-          aria-expanded="false"
-          aria-label="Toggle navigation"
-        >
-          <i class="fas fa-bars"></i>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <div class="navbar-nav">
-            <a href="home.html" class="nav-item nav-link">Home</a>
-            <a href="#" class="nav-item nav-link">About Us</a>
-            <a href="courses.html" class="nav-item nav-link">Courses</a>
-            <a href="#" class="nav-item nav-link">Contact</a>
-          </div>
-          <div class="navbar-nav ms-auto">
-            <a href="#" class="nav-item nav-link">
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                width="30"
-                height="30"
-                fill="currentColor"
-                class="bi bi-person-circle"
-                viewBox="0 0 16 16"
-              >
-                <path d="M11 6a3 3 0 1 1-6 0 3 3 0 0 1 6 0z" />
-                <path
-                  fill-rule="evenodd"
-                  d="M0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8zm8-7a7 7 0 0 0-5.468 11.37C3.242 11.226 4.805 10 8 10s4.757 1.225 5.468 2.37A7 7 0 0 0 8 1z"
-                />
-              </svg>
-            </a>
-            <a href="cart.html" class="nav-item nav-link cart">
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                width="30"
-                height="30"
-                fill="currentColor"
-                class="bi bi-cart4"
-                viewBox="0 0 16 16"
-              >
-                <path
-                  d="M0 2.5A.5.5 0 0 1 .5 2H2a.5.5 0 0 1 .485.379L2.89 4H14.5a.5.5 0 0 1 .485.621l-1.5 6A.5.5 0 0 1 13 11H4a.5.5 0 0 1-.485-.379L1.61 3H.5a.5.5 0 0 1-.5-.5zM3.14 5l.5 2H5V5H3.14zM6 5v2h2V5H6zm3 0v2h2V5H9zm3 0v2h1.36l.5-2H12zm1.11 3H12v2h.61l.5-2zM11 8H9v2h2V8zM8 8H6v2h2V8zM5 8H3.89l.5 2H5V8zm0 5a1 1 0 1 0 0 2 1 1 0 0 0 0-2zm-2 1a2 2 0 1 1 4 0 2 2 0 0 1-4 0zm9-1a1 1 0 1 0 0 2 1 1 0 0 0 0-2zm-2 1a2 2 0 1 1 4 0 2 2 0 0 1-4 0z"
-                />
-              </svg>
-              <div id="cartAmount" class="cartAmount">0</div>
-            </a>
-          </div>
-=======
 
 <head>
   <meta charset="utf-8" />
@@ -94,6 +7,7 @@
   <title>Home</title>
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <link rel="stylesheet" type="text/css" media="screen" href="./css/main.css" />
+  <link rel="stylesheet" href="./css/user.css">
 
   <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet" />
   <!-- Google Fonts -->
@@ -104,6 +18,7 @@
 </head>
 
 <body>
+  <!-- Nav Bar -->
   <nav class="navbar navbar-expand-lg navbar-light bg-light">
     <div class="container-fluid">
       <a href="#" class="navbar-brand">
@@ -114,13 +29,13 @@
       </button>
       <div class="collapse navbar-collapse" id="navbarCollapse">
         <div class="navbar-nav">
-          <a href="#" class="nav-item nav-link">Home</a>
+          <a href="home.html" class="nav-item nav-link">Home</a>
           <a href="#" class="nav-item nav-link">About Us</a>
           <a href="#" class="nav-item nav-link">Courses</a>
           <a href="#" class="nav-item nav-link">Contact</a>
         </div>
         <div class="navbar-nav ms-auto">
-          <a href="user.html" class="nav-item nav-link">
+          <a href="#" class="nav-item nav-link" >
             <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor"
               class="bi bi-person-circle" viewBox="0 0 16 16">
               <path d="M11 6a3 3 0 1 1-6 0 3 3 0 0 1 6 0z" />
@@ -135,19 +50,96 @@
               <path
                 d="M0 2.5A.5.5 0 0 1 .5 2H2a.5.5 0 0 1 .485.379L2.89 4H14.5a.5.5 0 0 1 .485.621l-1.5 6A.5.5 0 0 1 13 11H4a.5.5 0 0 1-.485-.379L1.61 3H.5a.5.5 0 0 1-.5-.5zM3.14 5l.5 2H5V5H3.14zM6 5v2h2V5H6zm3 0v2h2V5H9zm3 0v2h1.36l.5-2H12zm1.11 3H12v2h.61l.5-2zM11 8H9v2h2V8zM8 8H6v2h2V8zM5 8H3.89l.5 2H5V8zm0 5a1 1 0 1 0 0 2 1 1 0 0 0 0-2zm-2 1a2 2 0 1 1 4 0 2 2 0 0 1-4 0zm9-1a1 1 0 1 0 0 2 1 1 0 0 0 0-2zm-2 1a2 2 0 1 1 4 0 2 2 0 0 1-4 0z" />
             </svg></a>
->>>>>>> 556965c842dba80d311ab43cc505c1e3791b1a83
         </div>
       </div>
     </div>
   </nav>
 
+  <!-- Form -->
+  <div class="pagecontainer" >
+    <div class="container-1 bcolor2">
+      <div class="signinpage none">
+        <h1 class="heading">Welcome Back!</h1>
+        <pre>
+To keep connected with us please 
+           login with your personal info  </pre>
+        <input type="submit" class="signup" value="Sign In" id="sign" />
+      </div>
+      <div class="signinform">
+        <h1 class="form-heading">Sign in</h1>
+        <p>with social plattforms</p>
+        <div class="social-plattforms">
+          <a href="http://facebook.com" target="_blank">
+            <img src="img/l1.jpg" alt="facebook-logo" class="logo-image"> </a>
+
+
+          <a href="http://instagram.com" target="_blank"><img src="img/l3.png" alt="insta-logo"
+              class="logo-image" /></a>
+        </div>
+        <p>or use your account</p>
+        <form action="abc.php">
+          <label for="email">
+            <input type="email" name="emailid" id="email" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$"
+              title="E-mail must contain @" placeholder="E-mail" required />
+          </label>
+          <label for="password">
+            <input type="password" name="pasw" id="password" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}" title="Must contain
+              at least one number and one uppercase and lowercase letter, and at
+              least 8 or more characters" minlength="8" maxlength="12" placeholder="Password" required />
+          </label>
+          <p>
+          <label for="check">
+            <input type="checkbox" name="box" id="check" value="Remember me" />Remember Me
+          </label>
+        </p>
+       
+          <input type="submit" class="login" value="Login" id="login" />
+        </form>
+      </div>
+    </div>
+    <div class="container-2 bcolor1">
+      <div class="signuppage">
+        <h1 class="heading">Hello,friends!</h1>
+        <pre>
+Enter your personal details and start
+            journey with us
+          </pre>
+        <input type="submit" class="signup" value="Sign Up" id="signup" />
+      </div>
+      <div class="signupform none">
+        <h1 class="form-heading">Create Account</h1>
+        <form action="abc.php">
+          <label for="mname">
+            <input type="text" name="name" id="mname" placeholder="Username" maxlength="40" required />
+          </label>
+          <label for="email">
+            <input type="email" name="mail" id="mail" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$"
+              title="E-mail must contain @" placeholder="E-mail" required />
+          </label>
+          <label for="password">
+            <input type="password" name="psww" id="secret" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}" title="Must contain
+              at least one number and one uppercase and lowercase letter, and at
+              least 8 or more characters" placeholder="Password
+              " required />
+            <p>
+          </label> Choose your gender: Male<input type="radio" name="mygender" id="male" /> Female <input type="radio"
+            name="mygender" id="female" />
+          </p>
+         
+         <p>
+          <label for="terms">
+            <input type="checkbox" name="box" id="terms" value="terms&condition" />Accept terms &
+              conditions
+          </label>
+       </p>
+         
+          <input type="submit" class="signup" value="Sign Up" id="newac" />
+        </form>
+      </div>
+    </div>
+  </div>
   
-
-
-
-
-  
-
+<!-- Footer -->
   <footer class="bg-light text-center text-white">
     <div class="container">
       <!-- Grid container -->
@@ -231,18 +223,17 @@
       <!-- Grid container -->
     </div>
   </footer>
+  
 
+
+
+
+  
+
+  
   <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/4.2.0/mdb.min.js"></script>
 
   <script src="./js/main.js"></script>
 </body>
 
-<<<<<<< HEAD
-    <script src="./js/Data.js"></script>
-    <script src="./js/cart.js"></script>
-    <script src="./js/main.js"></script>
-  </body>
 </html>
-=======
-</html>
->>>>>>> 556965c842dba80d311ab43cc505c1e3791b1a83
