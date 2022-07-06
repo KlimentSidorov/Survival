@@ -15,8 +15,11 @@ footer{
     background-repeat: no-repeat;
     background-position: 30% 30%;
     width:100%;
-    
-    
+    background-size: cover; 
+}
+
+.text-center{
+    margin-bottom: 0!important;
 }
 
 
