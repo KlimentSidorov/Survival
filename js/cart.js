@@ -16,7 +16,6 @@ let generateCartItems = () => {
       .map((x) => {
         let { id, item } = x;
         let search = shopItemsData.find((y) => y.id === id) || [];
-        console.log(search);
         return `
         
     <tr>
