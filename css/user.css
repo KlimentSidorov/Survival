@@ -3,6 +3,8 @@
 .bcolor1 {
     /* background-image: linear-gradient(to right, #ff832bd1, #ff416c); */
     background-image: url("../Images/loginForm4.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .bcolor2 {
