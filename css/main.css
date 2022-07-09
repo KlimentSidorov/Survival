@@ -9,6 +9,22 @@ body{
 .navbar-nav a{
     margin-right: 10px;
 }
+
+.navbar{
+    position: relative !important;
+}
+
+.navb-item {
+    flex-direction: row !important;
+}
+
+@media (min-width:1023px) {
+.navb-item {
+        position: absolute;
+        right: 0;
+        flex-direction: row !important;
+    }
+}
 footer{
     position: relative;
     background-image: url('../Images/img_footer.jpg');
@@ -18,10 +34,24 @@ footer{
     background-size: cover; 
 }
 
+@media (max-width:999px) {
+.footerCenter {
+    text-align: center;
+}
+}
+
+
+
 .text-center{
     margin-bottom: 0!important;
 }
 
+.img-fluid{
+    max-width: 150px !important;
+}
+.cursor{
+    cursor: pointer;
+}
 
 .logofooter{
     height: 70px;
@@ -42,18 +72,14 @@ footer{
 
 .cart {
     position: relative;
-    background-color: #fff;
-    color: #212529;
-    font-size: 30px;
-    padding: 5px;
-    border-radius: 4px;
+   
 }
 
 .cartAmount {
     position: absolute;
-    top: -15px;
-    right: -10px;
-    font-size: 16px;
+    top: -5px;
+    right: 0px;
+    font-size: 8px;
     background-color: red;
     color: white;
     padding: 3px;
