@@ -3,6 +3,9 @@
 .bcolor1 {
     /* background-image: linear-gradient(to right, #ff832bd1, #ff416c); */
     background-image: url("../Images/loginForm4.jpg");
+  
+
+
 }
 
 .bcolor2 {
@@ -26,6 +29,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
+   
    
 }
 
