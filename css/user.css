@@ -12,7 +12,8 @@
 .pagecontainer {
     border: 4px solid white;
     margin: 1rem 14rem 2rem 14rem;
-    height: 33rem;
+    /* height: 33rem; */
+
     display: flex;
     border-radius: 25px;
 }
