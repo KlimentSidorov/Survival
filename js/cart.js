@@ -23,7 +23,7 @@ let generateCartItems = () => {
                   <td class="d-none d-sm-table-cell">
                     <picture class="d-block bg-light p-3 ">
                       <img
-                        class="img-fluid"
+                        class="img-fluid-cart"
                         src=${search.img}
                         alt=""
                       />
