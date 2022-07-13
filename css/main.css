@@ -12,6 +12,7 @@ body{
 
 .navbar{
     position: relative !important;
+    z-index: 100;
 }
 
 .navb-item {
