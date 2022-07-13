@@ -12,9 +12,11 @@ body{
 
 .navbar{
     position: relative !important;
-    z-index: 100;
+    z-index: 10;
 }
-
+.modal-backdrop.show{
+    z-index: 2;
+}
 .navb-item {
     flex-direction: row !important;
 }
